@@ -70,5 +70,9 @@
                                                             rdfs:label "Living, health and Welfare"@en ;
                                                             skos:closeMatch <http://eurovoc.europa.eu/1004> ;
                                                             skos:inScheme <http://ns.thedatatank.com/dcat/themes#Taxonomy> .
+
 <http://ns.thedatatank.com/dcat/themes#Taxonomy> a skos:ConceptScheme ;
+	                                         dct:issued "2014-10-06"^^xsd:date;
+                                                 dct:modified "2014-10-06"^^xsd:date;
+                                                 dct:creator [foaf:mbox "Pieter.Colpaert@UGent.be"; foaf:name "Pieter Colpaert"];
                                                  rdfs:label "The DataTank's standard theme taxonomy"@en .
