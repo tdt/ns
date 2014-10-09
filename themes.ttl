@@ -1,6 +1,5 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sim: <http://purl.org/ontology/similarity/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <http://ns.thedatatank.com/dcat/themes#Government> a skos:Concept ;
