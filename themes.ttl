@@ -118,8 +118,8 @@ skos:relatedMatch <http://id.vlaanderen.be/vrind/concept/wetenschap_en_innovatie
 skos:exactMatch <http://id.vlaanderen.be/vrind/concept/sport#id> ;
 .
 <http://ns.thedatatank.com/dcat/themes#Tourism>
-<skos:exactMatch http://id.vlaanderen.be/vrind/concept/toerisme#id> ;
+skos:exactMatch <http://id.vlaanderen.be/vrind/concept/toerisme#id> ;
 .
 <http://ns.thedatatank.com/dcat/themes#Work>
-<skos:relatedMatch http://id.vlaanderen.be/vrind/concept/arbeidsmarkt#id> ;
+skos:relatedMatch <http://id.vlaanderen.be/vrind/concept/arbeidsmarkt#id> ;
 .
