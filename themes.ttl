@@ -77,3 +77,49 @@
                                                  dct:modified "2014-10-06"^^xsd:date;
                                                  dct:creator [foaf:mbox "Pieter.Colpaert@UGent.be"; foaf:name "Pieter Colpaert"];
                                                  rdfs:label "The DataTank's standard theme taxonomy"@en .
+                                                 
+<http://ns.thedatatank.com/dcat/themes#CulturalEvents>
+skos:broadMatch <http://id.vlaanderen.be/vrind/concept/cultuur#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#CulturalHeritage>
+skos:broadMatch <http://id.vlaanderen.be/vrind/concept/cultuur#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Demography>
+skos:exactMatch <http://id.vlaanderen.be/vrind/concept/demografie#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Economy>
+skos:exactMatch <http://id.vlaanderen.be/vrind/concept/economie#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Education>
+skos:closeMatch <http://id.vlaanderen.be/vrind/concept/onderwijs_en_vorming#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Environment>
+skos:closeMatch <http://id.vlaanderen.be/vrind/concept/milieu#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Financing>
+skos:relatedMatch <http://id.vlaanderen.be/vrind/concept/financien#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Government>
+skos:relatedMatch <http://id.vlaanderen.be/vrind/concept/bestuurszaken#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#LivingHealthWelfare>
+skos:narrowMatch <http://id.vlaanderen.be/vrind/concept/gezondheid#id> ;
+skos:narrowMatch <http://id.vlaanderen.be/vrind/concept/welzijn#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Media> skos:exactMatch <http://id.vlaanderen.be/vrind/concept/media#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Mobility>
+skos:exactMatch <http://id.vlaanderen.be/vrind/concept/mobiliteit#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Research>
+skos:relatedMatch <http://id.vlaanderen.be/vrind/concept/wetenschap_en_innovatie#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Sport>
+skos:exactMatch <http://id.vlaanderen.be/vrind/concept/sport#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Tourism>
+<skos:exactMatch http://id.vlaanderen.be/vrind/concept/toerisme#id> ;
+.
+<http://ns.thedatatank.com/dcat/themes#Work>
+<skos:relatedMatch http://id.vlaanderen.be/vrind/concept/arbeidsmarkt#id> ;
+.
