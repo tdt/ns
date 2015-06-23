@@ -3,14 +3,18 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ghent: <http://stad.gent/data/ns/themas/> .
 
 <http://ns.thedatatank.com/dcat/themes#Government> a skos:Concept ;
                                                    rdfs:label "Government"@en ;
                                                    skos:closeMatch <http://eurovoc.europa.eu/1172> ;
+                                                   skos:broadMatch ghent:stad-beleid-bestuur ;
                                                    skos:inScheme <http://ns.thedatatank.com/dcat/themes#Taxonomy> .
+                                                   
 <http://ns.thedatatank.com/dcat/themes#Mobility> a skos:Concept ;
                                                  rdfs:label "Mobility"@en ;
                                                  skos:closeMatch <http://eurovoc.europa.eu/2015> ;
+                                                 skos:broadMatch ghent:mobiliteit-openbare-werken .
                                                  skos:inScheme <http://ns.thedatatank.com/dcat/themes#Taxonomy> .
 <http://ns.thedatatank.com/dcat/themes#Tourism> a skos:Concept ;
                                                 rdfs:label "Tourism"@en ;
@@ -34,7 +38,7 @@
                                               skos:closeMatch <http://eurovoc.europa.eu/4245> ;                                              
                                               skos:inScheme <http://ns.thedatatank.com/dcat/themes#Taxonomy> .
 <http://ns.thedatatank.com/dcat/themes#CulturalEvents> a skos:Concept ;
-                                                       rdfs:label "Government" ;
+                                                       rdfs:label "Cultural Events" ;
                                                        skos:closeMatch <http://eurovoc.europa.eu/214801> ;
                                                        skos:inScheme <http://ns.thedatatank.com/dcat/themes#Taxonomy> .
 <http://ns.thedatatank.com/dcat/themes#CulturalHeritage> a skos:Concept ;
@@ -47,6 +51,7 @@
 <http://ns.thedatatank.com/dcat/themes#Environment> a skos:Concept ;
                                                     rdfs:label "Environment"@en ;
                                                     skos:closeMatch <http://eurovoc.europa.eu/2825> ;
+                                                    skos:closeMatch ghent:natuur-milieu ;
                                                     skos:inScheme <http://ns.thedatatank.com/dcat/themes#Taxonomy> .
 <http://ns.thedatatank.com/dcat/themes#Law> a skos:Concept ;
                                             rdfs:label "Law"@en ;
@@ -69,6 +74,8 @@
                                                  skos:inScheme <http://ns.thedatatank.com/dcat/themes#Taxonomy> .
 <http://ns.thedatatank.com/dcat/themes#LivingHealthWelfare> a skos:Concept ;
                                                             rdfs:label "Living, health and Welfare"@en ;
+                                                            skos:broadMatch ghent:wonen-bouwen ;
+                                                            skos:broadMatch ghent:welzijn-gezondeheid ;
                                                             skos:closeMatch <http://eurovoc.europa.eu/1004> ;
                                                             skos:inScheme <http://ns.thedatatank.com/dcat/themes#Taxonomy> .
 
